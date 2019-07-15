@@ -38,8 +38,8 @@ export class Tab1Page implements OnInit {
 
     // This code is necessary for browser
      Environment.setEnv({
-       'API_KEY_FOR_BROWSER_RELEASE': 'AIzaSyBsUoZWA9fud8qZFFAxo6qHLDfNrhVN1RQ',
-       'API_KEY_FOR_BROWSER_DEBUG': 'AIzaSyBsUoZWA9fud8qZFFAxo6qHLDfNrhVN1RQ'
+       'API_KEY_FOR_BROWSER_RELEASE': 'GoogleKey',
+       'API_KEY_FOR_BROWSER_DEBUG': 'GoogleKey'
      });
 
     let mapOptions: GoogleMapOptions = {
